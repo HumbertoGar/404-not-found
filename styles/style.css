@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Space+Mono&display=swap');
+
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Textos generales*/
+.notFound{
+  font-family: Inconsolata;
+  font-style: normal;
+}
+
+.main{
+
+  font-family: Space Mono;
+  font-style: normal;
+  
+
+}
+
+.created__by{
+  font-family: Montserrat;
+  font-style: normal;
+}
+/*Textos generales fin*/
+img{
+  width: 100%;
+}
+
+.notFound{
+margin: 20px 0 0 24px;
+font-weight: bold;
+font-size: 24px;
+line-height: 25px;
+letter-spacing: -0.08em;
+text-transform: uppercase;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 100vh;
+  margin: 64px 24px 0 24px;
+}
+
+.main__img{
+  margin-bottom: 77.65px;
+}
+
+.main__info h1{
+  margin-bottom: 30px;
+  width: 350px;
+  height: 142px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: -0.035em;
+}
+
+.main__info p{
+  margin-bottom: 66px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+}
+
+.main__info button{
+  padding: 24px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  /* Gray 1 */
+  
+  background: #333333;
+  color: #FFFFFF;;
+}
+
+.created__by{
+  margin-top: 114px;
+  width: 287px;
+  height: 17px;
+}
+
+.created__by h4{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #000;
+}
+
+@media (min-width: 1150px){
+  
+  .notFound{
+    
+    margin: 44px 0 0 77px;
+  }
+  
+  img{
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .main{
+    display: flex;
+    height: 100vh;
+    margin: 200px 119px 308 119px;
+  }
+  
+  .main__img{
+    width: 50%;
+    text-align: center;
+  }
+
+  
+  .main__info h1{
+    width: 586px;
+    height: 190px;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+  }
+  
+  .main__info p{
+    width: 381px;
+    height: 108px;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+  }
+  
+  .created__by{
+    margin-top: 114px;
+    width: 287px;
+    height: 17px;
+    align-self: center;
+  }
+  
+  .created__by h4{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000;
+  }
+}
